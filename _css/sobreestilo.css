@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body{
+    background-color: white;
+    color: black;
+}
+
+/*formatação da foto(copo de agua)*/
+
+
+div#interface{
+    padding: 20px;
+}
+
+
+/*formatação do menu*/
+
+nav#menu{
+    display: block;
+}
+
+nav#menu ul{
+
+    list-style: none;
+    text-transform:uppercase;
+    position: absolute;
+    top:10px;
+    left: 750px;
+}
+
+
+nav#menu li{
+    display: inline-block;
+    background-color:tomato;
+    transition: background-color 1s;
+    padding: 5px;
+    margin: 0px;
+}
+
+nav#menu li:hover{
+    background-color: red;
+}
+
+
+nav#menu h1{
+    display:none;
+}
+
+nav#menu a{
+    color: white;
+    text-decoration:none;
+}
+
+nav#menu a:hover{
+    color:black;
+    text-decoration: underline;
+}
